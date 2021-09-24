@@ -1,0 +1,30 @@
+.item {
+  display: list-item;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: whitesmoke;
+  border: solid rgb(224, 220, 240) 2px;
+  border-radius: 15px;
+  color: red;
+  list-style-position: outside;
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar {
+  padding: 5px;
+}
+.name {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.isOnline {
+  color: green;
+}
