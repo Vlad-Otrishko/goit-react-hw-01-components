@@ -1,10 +1,10 @@
-import user from "./social-profile/user.json";
+import user from "./data/user.json";
 import Profile from "./components/Profile/Profile";
-import statisticalData from "../src/statistics/statistical-data.json";
+import statisticalData from "./data/statistical-data.json";
 import Statistics from "./components/Statistics/Statistics.js";
-import friends from "./friend-list/friends.json";
+import friends from "./data/friends.json";
 import FriendList from "./components/FriendList/FriendList";
-import transactions from "../src/transaction-history/transactions.json";
+import transactions from "./data/transactions.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 import "./App.css";
 
